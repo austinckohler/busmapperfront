@@ -48,10 +48,9 @@ fetch("http://localhost:3000/buses")
     })
     newBusForm.reset()
 
-    // function removeBus(event, bus) {
-    //     event.preventDefault();
-    //     bus.remove()
+    function removeBus(event, bus) {
+        event.preventDefault();
+        bus.remove()
         
-    //     fetch
-    // }
+    }
 
